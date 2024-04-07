@@ -1,0 +1,59 @@
+.caixa-login{
+    background-color:darkgray;
+    width: 320px;
+    margin: auto;
+    border: 2px solid #000;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 4%;
+    
+}
+
+.título-login{
+    text-align: center;
+    color:var(--cor-primária) ;
+font-size: 30px;
+margin-bottom: 50px;
+font-weight: 700;
+
+}
+    .grupo{
+        margin-top: 15px;
+        
+    }
+.esqueci-minha-senha a{
+    text-decoration: none;
+    color: var(--cor-primária);
+    font-size: 14px;
+    font-weight: 600;
+}
+.esqueci-minha-senha{
+    text-align: right;
+    font-style: italic;
+    margin-top: 3px;
+}
+label{
+    font-size: 14px;
+}
+
+input,
+#btn-entrar{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid; 
+    border-radius: 3%;
+    border-color: #000;
+}
+
+#btn-entrar{
+    margin-top: 10px;
+    background-color: var(--cor-primária);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#btn-entrar:hover{
+    background-color: var(--cor-secundária);
+    cursor: pointer;
+}
